@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body,html {
+      height:100%;
+      margin:0;
+      font-size:16px;
+      font-family: 'Poppins', sans-serif;
+      /* font-weight:400; */
+      line-height:1.8em;
+      /* color:#666; */
+      /* justify-content: center; */
+      
+}
+.pimg1{
+      background-image: url("./bg.jpg");
+      min-height:100%;
+      /* width: 100%; */
+    
+}
+.pimg1, .pimg2, .pimg3, .traversy{
+      position:relative;
+      opacity:0.70;
+      background-position:center center;
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+}
+
+.pimg2 {
+      background-image: url("./parallaxbg2.jpg");
+      min-height:50%;
+      background-blend-mode: multiply;
+      background-color: rgb(182, 172, 172);
+      
+}
+
+.traversy {
+      background-image: url("./traversy.jpg");
+      min-height:100%;
+      /* background-blend-mode: multiply;
+      background-color: rgb(182, 172, 172); */
+
+}
+    
+.ptext{
+      text-align: center;
+      /* align-items: center; */
+      letter-spacing: 6px;
+      font-size: 1.8rem;
+      color: white;
+      text-transform: uppercase;
+      /* font-weight: bold; */
+      /* background-color: rgb(255, 255, 255);
+      margin: 0px 200px 200px 200px; */
+}
+.border {
+      background-color: rgb(20, 18, 18);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 24px 24px 24px 24px;
+      /* margin: 50% 50% 50% 50%; */
+      /* padding: 50px 50px 50px 50px; */
+      /* padding-top: 200px; */
+}
+
+.section-one, .section-two, .section-three {
+      padding: 30px 30px 30px 30px;
+      text-align: center;
+      font-weight: 100;
+}
+.section-one {
+      background-color: rgb(214, 214, 211);
+      padding: 40px 40px 50px 40px;
+}
+
+
+.section-two, .section-three {
+      background-color: rgb(21, 18, 31);
+} 
+
+.tittle {
+      font-size: 24px;
+      color: rgb(199, 195, 195);
+      /* color: rgba(21, 25, 29, 0); */
+}
+
+.description-one{
+      color: rgb(43, 42, 42);
+      font-weight: 100;
+      /* justify-content: right; */
+      font-size: 14px;
+}
+
+.description {
+      color: rgb(235, 207, 207);
+      font-weight: 100;
+      /* justify-content: right; */
+      font-size: 14px;
+}
+
+/* IMAGE TWO */
+
+.no-border {
+      /* background-color: rgb(20, 18, 18); */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 24px 24px 24px 24px;
+}
+/* 
+THIRD */
+
+.pimg3 {
+      background-image: url(./bg3.jpg);
+      min-height:50%;
+      background-blend-mode: multiply;
+      background-color: rgb(182, 172, 172);
+}
+
+/* .tittle-two {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.8rem;
+      color: #fff;
+      letter-spacing: 6px;
+
+} */
